@@ -30,8 +30,8 @@ def BlackMagic():
 
     return [name,health,maxHealth,attack,energy,maxEnergy]
 
-def IronFist():
-    name = "Iron Fist"
+def BrassKnuckles():
+    name = "Brass Knuckles"
     maxHealth = 130
     health = maxHealth
     attack = 50
