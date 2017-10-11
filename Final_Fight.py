@@ -71,7 +71,7 @@ def menu(player): # main menu; returns the menuchoice in lowercase
 
 def battleGenerator(): # selects enemies from a list and returns the results like the player character
     enemyList = [enemies.BrilliantBlue(),enemies.ShadowKnight(),
-                enemies.BlackMagic(),enemies.IronFist(),enemies.OrangeClockwork(),
+                enemies.BlackMagic(),enemies.BrassKnuckles(),enemies.OrangeClockwork(),
                 enemies.SoylentGreen(),enemies.KingCrimson()]
     enemy = random.choice(enemyList)
 
