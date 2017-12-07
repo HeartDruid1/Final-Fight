@@ -27,34 +27,34 @@ def playerCreate(name): #creates player and returns values in a list
     potions = 0
     energyFill = 0
 	
-	if name == "MoneyBagz":
-		money = 500
-	elif name == "BeefCake":
-		attack = 55
-	elif name == "GODMODE":
-		maxHealth = 75
-    	health = maxHealth
-    	attack = 25
-    	maxEnergy = 50
-    	energy = maxEnergy
-    	money = 100
-    	potions = 0
-    	energyFill = 0
-	elif name == "Prepared":
-		money = 200
-		potions = 4
-		energyFill = 5
-	elif name == "HeartDruid1":
-		print('THE ALMIGHTY CREATOR!')
-		name = name
-    	maxHealth = 200
-    	health = maxHealth
-    	attack = 50
-    	maxEnergy = 100
-    	energy = maxEnergy
-    	money = 400
-    	potions = 5
-    	energyFill = 5
+    if name == "MoneyBagz":
+        money = 500
+    elif name == "BeefCake":
+        attack = 55
+    elif name == "GODMODE":
+        maxHealth = 75
+        health = maxHealth
+        attack = 25
+        maxEnergy = 50
+        energy = maxEnergy
+        money = 100
+        potions = 0
+        energyFill = 0
+    elif name == "Prepared":
+        money = 200
+        potions = 4
+        energyFill = 5
+    elif name == "HeartDruid1":
+        print('THE ALMIGHTY CREATOR!')
+        name = name
+        maxHealth = 200
+        health = maxHealth
+        attack = 50
+        maxEnergy = 100
+        energy = maxEnergy
+        money = 400
+        potions = 5
+        energyFill = 5
 		
     return [name,health,maxHealth,attack,energy,maxEnergy,money,potions,energyFill]
 
